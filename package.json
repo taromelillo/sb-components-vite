@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "",
   "repository": {
-    "url": "https://",
+    "url": "https://github.com/taromelillo/lnm-custom-components",
     "type": "git"
   },
   "files": [
@@ -38,7 +38,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_d8435f327993aaa",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.1.3",
